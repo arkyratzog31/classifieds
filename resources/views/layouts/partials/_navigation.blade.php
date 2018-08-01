@@ -33,7 +33,7 @@
                       <a class="btn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Listings
                       </a>
-                      <div class="menu" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                       <a class="dropdown-item" href="{{ route('listings.create', [$area]) }}" >New Listing</a>
                       <a class="dropdown-item" href="{{ route('listings.unpublished.index', [$area]) }}">Unpublished Listings</a>
                       <a class="dropdown-item" href="{{ route('listings.published.index', [$area]) }}">Published Listings</a>
